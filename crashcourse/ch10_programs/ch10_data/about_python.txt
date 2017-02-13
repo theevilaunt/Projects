@@ -1,0 +1,3 @@
+in python, you can work with dictionaries
+in python, you can decorate functions/classes
+in python, you can "slice" lists

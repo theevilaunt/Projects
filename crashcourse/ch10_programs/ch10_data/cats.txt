@@ -1,0 +1,5 @@
+siamese
+burmese
+bengal
+abyssinian
+persian
