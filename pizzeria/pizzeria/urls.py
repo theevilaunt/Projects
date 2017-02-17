@@ -1,4 +1,4 @@
-"""learning_log URL Configuration from the top level file not a webapp
+"""pizzeria URL Configuration TOP LEVEL
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.9/topics/http/urls/
@@ -13,10 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import include, url
+from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'',include('learning_logs.urls',namespace='learning_logs')),
+    url(r'', include('pizzas.urls',namespace='pizzas')),    
 ]
